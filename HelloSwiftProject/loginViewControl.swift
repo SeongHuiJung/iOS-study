@@ -18,8 +18,7 @@ class loginViewControl: UIViewController {
         super.viewDidLoad()
         
         if let user = Auth.auth().currentUser{
-            emailTextField.placeholder = "이미 
-            로그인 된 상태입니다"
+            emailTextField.placeholder = "이미 로그인 된 상태입니다"
             pwTextField.placeholder = "이미 로그인 된 상태입니다"
             
         }
